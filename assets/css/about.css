@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, max-content);
+    margin: 0 auto;
+    grid-row-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.container h1,
+.container p,
+.container h2 {
+    color: white;
+    font-weight: 300;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 1em;
+    grid-row: 1;
+    width: 30%;
+    letter-spacing: 10px;
+}
+
+.container img {
+    grid-row: 2;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.container h2 {
+    grid-row: 3;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.container p {
+    grid-row: 4;
+    width: 35%;
+    margin: 0 auto;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+}

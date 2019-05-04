@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+
+* {
+    /*    font-family: helvetica;*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/*Nav*/
+header {
+    position: relative;
+    background-color: white;
+    padding: 5px;
+}
+
+header img {
+    padding: 10px;
+    display: block;
+}
+
+nav {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+    border: 4px solid #000;
+    border-radius: 1px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    color: #000;
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+/*section 1*/
+
+#section1 {
+    margin-bottom: 10%;
+}
+
+img.bg {
+
+    /* Set up proportionate scaling */
+    width: 100%;
+}
+
+.main {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    border-bottom: 1px solid white;
+    width: 45%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+button {
+    width: 10%;
+    border: 4px solid white;
+    /*    border-radius: 50px;*/
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+button:hover {
+    border: 1px solid white;
+    padding: 13px;
+}
+
+#section1 a {
+    text-decoration: none;
+}
+
+#section1 a:visited {
+    color: white;
+}
+
+/*footer*/
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+footer a {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+.fa {
+    font-size: 2em !important;
+}
+
+.fa-facebook {
+    color: #000;
+}
+
+.fa-instagram {
+    color: #000;
+}
+
+.fa-twitter {
+    color: #000;
+}
+
+.fa-youtube {
+    color: #000;
+}
