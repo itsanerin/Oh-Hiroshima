@@ -130,8 +130,7 @@ footer {
 }
 
 footer a {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 1% 0 1%;
 }
 
 footer p {
@@ -140,20 +139,5 @@ footer p {
 
 .fa {
     font-size: 2em !important;
-}
-
-.fa-facebook {
-    color: #000;
-}
-
-.fa-instagram {
-    color: #000;
-}
-
-.fa-twitter {
-    color: #000;
-}
-
-.fa-youtube {
-    color: #000;
+    color: black;
 }
