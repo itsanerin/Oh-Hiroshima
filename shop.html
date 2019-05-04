@@ -1,40 +1,50 @@
 <!doctype html>
 <html>
+
 <head>
     <title>Oh Hiroshima</title>
-    
+
     <link rel="shortcut icon" href="assets/img/waicon.png" type="image/png">
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
-    
+    <link rel="stylesheet" href="assets/css/shop.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    
-	<style>
-		.fa{
-			font-size:30px;
-		}
-        
-        .fa-facebook{
-            color:#fff;
-        }
-	
-		.fa-instagram{
-			color:#000;
-		}
-		
-		.fa-twitter{
-			color:#000;
-		}
-        .fa-youtube{
-            color:#000;
-        }
-	</style>
+
+    <script type="text/javascript" src="assets/js/jquery.waterwheelCarousel.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var carousel = $("#carousel").waterwheelCarousel({
+                flankingItems: 3,
+                movingToCenter: function($item) {
+                    $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+                },
+                movedToCenter: function($item) {
+                    $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+                },
+                movingFromCenter: function($item) {
+                    $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+                },
+                movedFromCenter: function($item) {
+                    $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+                },
+                clickedCenter: function($item) {
+                    $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+                }
+            });
+        });
+    </script>
+
 </head>
+
 <body>
+
     <header>
         <img src="assets/img/oh.png">
+
         <nav>
             <ul>
                 <li><a href="index.html">HOME</a></li>
@@ -44,31 +54,25 @@
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
-        <center>
-        <div id="zero">
-            <div>
-                <div class="col c3">
-            <p><img src="assets/img/ohhiroshimacd.jpg"></p>
-                </div>
-                <div class="col c3">
-            <p><img src="assets/img/ohhiroshimavinyl.jpg"></p>
-                </div>
-                <div class="col c3">
-            <p><img src="assets/img/ohhiroshimashirt.png"></p>
-                </div>
-            </div>
-        </div>
-        </center>
     </header>
-    
-    <div>
+
+    <h1>MERCHANDISE</h1>
+
+    <div id="carousel">
+        <img src="assets/img/ohhiroshimacd.jpg" alt="Image 1" />
+        <img src="assets/img/ohhiroshimavinyl.jpg" alt="Image 2" />
+        <img src="assets/img/ohhiroshimashirt.png" alt="Image 3" />
+    </div>
+
+
     <footer>
-        <a href="https://www.facebook.com/ohhiroshima"><i class="fa fa-facebook"></i></a>
-        <a href="https://www.instagram.com/wickedchillz"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.twitter.com/wickedchillz"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.youtube.com/wickedchillz"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.facebook.com/ohhiroshima" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/ohhiroshima/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.twitter.com/ohhiroshima" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/ohhiroshima" target="_blank"><i class="fa fa-youtube"></i></a>
         <p>&copy; 2019. Oh Hiroshima, All rights reserved.</p>
     </footer>
-    </div>
+
 </body>
+
 </html>

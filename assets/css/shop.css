@@ -1,0 +1,24 @@
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    width: 40%;
+}
+
+#carousel {
+    width: 80%;
+    height: 300px;
+    position: relative;
+    margin: 6.5% auto;
+}
+
+#carousel img {
+    display: hidden;
+    /* hide images until carousel prepares them */
+    cursor: pointer;
+    /* not needed if you wrap carousel items in links */
+}
