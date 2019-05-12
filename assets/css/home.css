@@ -1,0 +1,196 @@
+/*section 1*/
+
+#section1 {
+    margin-bottom: 10%;
+}
+
+img.bg {
+
+    /* Set up proportionate scaling */
+    width: 100%;
+}
+
+.main {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+button {
+    width: 10%;
+    border: 4px solid white;
+    /*    border-radius: 50px;*/
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+button:hover {
+    border: 1px solid white;
+    padding: 13px;
+}
+
+button:visited {
+    color: white;
+}
+
+#section1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#section1 a:visited {
+    color: white;
+}
+
+
+
+/*responsive styles*/
+
+/* mobile devices */
+@media only screen and (min-width: 120px) and (max-width: 375px) {
+
+    h1.main {
+        font-size: 1.2em;
+        width: 80%;
+        padding-bottom: 8px;
+        margin-top: 30px;
+    }
+
+    h2.main {
+        font-size: .8em;
+    }
+
+    .main {
+        letter-spacing: 8px;
+    }
+
+    #section1 button {
+        width: 40%;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 416px) {
+
+    h1.main {
+        font-size: 1.2em;
+        width: 70%;
+        padding-bottom: 8px;
+        margin-top: 30px;
+    }
+
+    h2.main {
+        font-size: .8em;
+    }
+
+    .main {
+        letter-spacing: 8px;
+    }
+
+    #section1 button {
+        width: 40%;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 416px) and (max-width: 510px) {
+
+    h1.main {
+        font-size: 1.2em;
+        width: 60%;
+        padding-bottom: 8px;
+        margin-top: 30px;
+    }
+
+    h2.main {
+        font-size: .8em;
+    }
+
+    .main {
+        letter-spacing: 8px;
+    }
+
+    #section1 button {
+        width: 30%;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 700px) {
+
+    h1.main {
+        font-size: 1.6em;
+        width: 63%;
+        padding-bottom: 8px;
+        margin-top: 30px;
+    }
+
+    h2.main {
+        font-size: .8em;
+    }
+
+    .main {
+        letter-spacing: 8px;
+    }
+
+    #section1 button {
+        width: 30%;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 980px) {
+
+    h1.main {
+        font-size: 2.3em;
+        width: 55%;
+        padding-bottom: 8px;
+        margin-top: 30px;
+    }
+
+    h2.main {
+        font-size: 1em;
+    }
+
+    .main {
+        letter-spacing: 8px;
+    }
+
+    #section1 button {
+        width: 15%;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1320px) {
+
+    h1.main {
+        font-size: 3em;
+        width: 50%;
+        padding-bottom: 8px;
+        margin-top: 30px;
+    }
+
+    h2.main {
+        font-size: 1.2em;
+    }
+
+    .main {
+        letter-spacing: 8px;
+    }
+
+    #section1 button {
+        width: 15%;
+        margin-top: 100px;
+    }
+}
