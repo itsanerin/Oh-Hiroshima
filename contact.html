@@ -11,33 +11,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-
-    <style>
-        .fa{
-			font-size:30px;
-		}
-        
-        .fa-facebook{
-            color:#fff;
-        }
-	
-		.fa-instagram{
-			color:#000;
-		}
-		
-		.fa-twitter{
-			color:#000;
-		}
-        .fa-youtube{
-            color:#000;
-        }
-	</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body>
     <header>
         <img src="assets/img/oh.png">
-        <nav>
+
+        <nav class="wide">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
@@ -46,26 +27,36 @@
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
-        <center>
-            <div id="zero">
-                <form>
-                    <label>Name<br>
-                        <input type="text" placeholder="Scott" name="fn" required>
-                    </label>
-                    <br>
-                    <label>Email<br>
-                        <input type="email" placeholder="@gmail.com" name="em" required>
-                    </label>
-                    <br>
-                    <label>Message<br>
-                        <textarea name="message"></textarea>
-                    </label>
-                    <br>
-                    <input type="submit" name="sb1" value="Send">
-                </form>
-            </div>
-        </center>
+
+        <nav class="icons">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="about.html"><i class="far fa-address-card"></i></a></li>
+                <li><a href="music.html"><i class="fas fa-music"></i></a></li>
+                <li><a href="https://flutteryrecords.com/stag/oh-hiroshima" target="_blank"><i class="fas fa-dollar-sign"></i></a></li>
+                <li><a href="contact.html"><i class="far fa-envelope"></i></a></li>
+            </ul>
+        </nav>
     </header>
+
+
+    <div id="zero">
+        <form>
+            <label>Name<br>
+                <input type="text" placeholder="Scott" name="fn" required>
+            </label>
+            <br>
+            <label>Email<br>
+                <input type="email" placeholder="@gmail.com" name="em" required>
+            </label>
+            <br>
+            <label>Message<br>
+                <textarea name="message"></textarea>
+            </label>
+            <br>
+            <input type="submit" name="sb1" value="Send">
+        </form>
+    </div>
 
     <footer>
         <a href="https://www.facebook.com/ohhiroshima" target="_blank"><i class="fab fa-facebook"></i></a>
