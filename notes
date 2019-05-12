@@ -1,9 +1,0 @@
-<head> goes in layout
-
-partials:
-header
-footer
-
-page:
-music/shop
-
