@@ -57,13 +57,13 @@ nav.wide a:hover {
 }
 
 nav.icons {
-    width: 60%;
+    width: 50%;
     margin-top: 5px;
     display: inline-block;
 }
 
 nav.icons li {
-    width: 18%;
+    width: 23%;
 }
 
 nav.icons a {
